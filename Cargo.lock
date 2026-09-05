@@ -3,5 +3,21 @@
 version = 4
 
 [[package]]
+name = "ds"
+version = "0.1.0"
+
+[[package]]
+name = "ffi"
+version = "0.1.0"
+
+[[package]]
+name = "graph"
+version = "0.1.0"
+
+[[package]]
 name = "hi-cp-rust"
+version = "0.1.0"
+
+[[package]]
+name = "math"
 version = "0.1.0"

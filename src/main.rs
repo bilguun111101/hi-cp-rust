@@ -1,3 +1,8 @@
+mod cses;
+use crate::cses::introductory::weird::weird_algorithm;
+
 fn main() {
-    println!("Hello, world!");
+    let nums = weird_algorithm();
+
+    println!("{:?}", nums);
 }
