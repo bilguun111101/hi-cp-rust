@@ -6,8 +6,8 @@ mod cses;
 // use crate::cses::introductory::permutations::permutations;
 use crate::cses::introductory::number_spirel::number_spirel;
 
-// use std::cmp::max;
-// use std::io::{self, Read};
+use std::cmp::max;
+use std::io::{self, Read};
 
 fn main() {
     // let nums = permutations();
