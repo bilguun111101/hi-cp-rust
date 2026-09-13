@@ -1,17 +1,9 @@
 mod cses;
-// use crate::cses::introductory::weird::weird_algorithm;
-// use crate::cses::introductory::missing_number::missing_number;
-// use crate::cses::introductory::repetitions::repetitions;
-// use crate::cses::introductory::increasing_array::increasing_array;
-// use crate::cses::introductory::permutations::permutations;
-// use crate::cses::introductory::number_spirel::number_spirel;
-use crate::cses::introductory::two_set::two_set;
+use crate::cses::introductory::bit_strings::bit_strings;
 
-// use std::cmp::max;
-use std::io::{self, Read};
+// use std::io::{self, Read};
 
 fn main() {
-    // let nums = permutations();
-    // let nums = number_spirel();
-    let nums = two_set();
+    let value = bit_strings();
+    println!("{}", value);
 }
