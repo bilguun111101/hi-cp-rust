@@ -7,9 +7,9 @@ pub fn trailing_zero() -> u64 {
     let mut f: u64 = 5;
     let mut result: u64 = 0;
 
-    while n % f == 0 {
-        let rem = n / f;
-        result += rem;
+    while f <= n {
+        let r = n / 5;
+        result += r;
         f *= 5;
     }
 
