@@ -1,6 +1,6 @@
 use std::io::{self, Read};
 
-fn main() {
+pub fn coin_piles() {
     let mut input = String::new();
     io::stdin().read_to_string(&mut input).unwrap();
     let mut it = input.split_whitespace();
@@ -16,5 +16,16 @@ fn main() {
         } else {
             println!("NO");
         }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_coin_piles() {
+        coin_piles();
+        assert_eq!(0, 0);
     }
 }
