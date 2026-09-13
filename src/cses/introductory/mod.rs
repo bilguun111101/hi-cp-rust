@@ -4,6 +4,7 @@ pub mod missing_number;
 pub mod number_spirel;
 pub mod permutations;
 pub mod repetitions;
+pub mod trailing_zero;
 pub mod two_knights;
 pub mod two_set;
 pub mod weird;
