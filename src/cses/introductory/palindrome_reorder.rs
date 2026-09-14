@@ -9,7 +9,7 @@ pub fn palindrome_reorder() {
         counts[(b - b'A') as usize] += 1;
     }
     let odd_number = counts.iter().filter(|&&count| count % 2 == 1).count();
-    if odd_number % 2 == 1 {
+    if odd_number > 1 {
         print!("NO SOLUTION");
         return;
     }
