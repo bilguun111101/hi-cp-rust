@@ -3,6 +3,7 @@ pub mod coin_piles;
 pub mod increasing_array;
 pub mod missing_number;
 pub mod number_spirel;
+pub mod palindrome_reorder;
 pub mod permutations;
 pub mod repetitions;
 pub mod trailing_zero;
