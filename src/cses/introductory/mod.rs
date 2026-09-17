@@ -7,6 +7,7 @@ pub mod number_spirel;
 pub mod palindrome_reorder;
 pub mod permutations;
 pub mod repetitions;
+pub mod tower_of_hanoi;
 pub mod trailing_zero;
 pub mod two_knights;
 pub mod two_set;
